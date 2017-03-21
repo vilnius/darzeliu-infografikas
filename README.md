@@ -1,2 +1,3 @@
-# darzeliu-infografikas
-Darželių infografikas
+# Darželių infografikas
+
+Source code for: http://www.vilnius.lt/darzeliai/info/
