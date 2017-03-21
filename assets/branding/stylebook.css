@@ -1,0 +1,71 @@
+
+@import url('fonts/neris_light_lithuanian/stylesheet.css');
+@import url('fonts/neris_black_lithuanian/stylesheet.css');
+
+body{
+	background:#fcfcfc;
+	font-family: "nerislight";
+	font-size:16px;
+}
+hr {
+	border-top: 1px solid #e8432e;
+	margin-top:15px;
+}
+.bignumber{
+	color:#e8432e;
+	font-family:'nerisblack';
+	font-size:4em;
+	line-height:1.2em;
+}
+.monospace{
+	font-family:monospace;
+}
+.red{
+	color:#e8432e;
+	font-family:'nerisblack';
+}
+.blue{ 
+	color:#3498D8;
+	font-family:'nerisblack';
+}	
+	.greenBg, .blueBg, .redBg, .yellowBg, .purpleBg, .orangeBg,
+	.greenBg a, .blueBg a, .redBg a, .yellowBg a, .purpleBg a, .orangeBg a{
+		color:#fff;	
+	}
+	.greenBg a, .blueBg a, .redBg a, .yellowBg a, .purpleBg a, .orangeBg a{
+		text-decoration:underline;
+	}
+	.greenBg{ background:#66CC33; }
+	.blueBg{ background:#3498D8; }
+	.redBg{ background:#E74C33; }
+	.yellowBg{ background:#F1C40F; }
+	.purpleBg{ background:#92399E; }
+	.orangeBg{ background:#E67E22; }
+
+
+
+.footer{
+	line-height:30px;
+	margin-bottom:20px;
+}
+.muted{
+	color: #999999;
+	font-size:0.8em;
+}
+.background {
+    fill: #FFFFFF;
+    fill-opacity: 0.01;
+}
+
+.component {
+    fill: #e1e1e1;
+}
+.table>thead>tr>th{
+	background:#3498D8;
+	color:#fff;
+	border-bottom:0;
+}
+.nowrap{
+	white-space:nowrap;
+}
+a{ color:#3498D8; }

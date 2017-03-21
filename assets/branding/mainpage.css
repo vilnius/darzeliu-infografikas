@@ -1,0 +1,396 @@
+@charset "UTF-8";
+
+@import url("fonts/neris_black_lithuanian/stylesheet.css");
+@import url("fonts/neris_semibold_lithuanian/stylesheet.css");
+@import url("fonts/neris_light_lithuanian/stylesheet.css");
+@import url("fonts/neris_thin_lithuanian/stylesheet.css");
+
+body{
+	padding:0;
+	margin:0;
+}
+a{
+	color:#e8432e;
+}
+#logo{
+	margin-top: 60px;
+}
+#slogan{
+	font-family: 'nerissemibold';
+	font-size: 48px;
+	width: 610px;
+	margin-top: 262px;
+	margin-left: 94px;
+	line-height: 48px;
+	color:#fff;
+}
+.container-narrow {
+    margin: 0 auto;
+    width: 980px;
+}
+.otherProjects{
+	margin-top: 11px;
+	padding-top: 34px;
+	padding-bottom:94px;
+	background:#E8432E;
+	color:#fff;
+}
+.otherProjects .container-narrow{
+	width: 1180px;
+}
+.otherProjects h4{
+	font-family:'nerislight';
+	font-size:22px;
+	margin-top:64px;
+	min-height:48px;
+	letter-spacing: -0.2px;
+}
+.commercialProjects.otherProjects h4{
+	min-height:initial;
+}
+.site-wrapper .container-narrow {
+    width: 1110px;
+}
+h1,h2,h3,h4,h5{
+	font-family:'nerisblack';
+}
+.otherProjects .col-md-offset-1 {
+margin-left: 6.9%;
+}
+.otherProjects .col-md-2 {
+padding:0;
+}
+.site-wrapper{
+	padding:0;
+	margin:0;
+	background:transparent url(/assets/branding/big_pixels.jpg) no-repeat 50% 50%;
+	height:719px;
+	display: table;
+	width: 100%;
+}
+.site-wrapper-inner{
+	background:#000;
+	opacity:0.8;
+	display:table-cell;
+	border-bottom: 3px solid #e8432e;
+}
+.site-wrapper .readmore{
+	color: #fff;
+	font-family: 'nerissemibold';
+	display: inline-block;
+	font-size: 20px;
+	text-indent: 73px;
+	line-height: 100px;
+	background: transparent url(/assets/branding/ellipse.png) no-repeat 0% 50%;
+	margin-top: 26px;
+	margin-left: 69px;
+}
+.site-wrapper .readmore:hover,.site-wrapper .readmore:active{
+	color: #e8432e;
+	text-decoration:none;
+	background: transparent url(/assets/branding/ellipse_hover.png) no-repeat 0% 50%;
+}
+#content{
+	margin-top:38px;
+}
+h3{
+	font-size:32px;
+	margin-bottom:8px;
+}
+.underline{
+	width:30px;
+	border-top:4px solid #e8432e;
+}
+.otherProjects .underline{
+	width:30px;
+	border-top:4px solid #fff;
+	margin-left: 8.49%;
+}
+.otherProjects h3{
+	margin-left: 8.49%;
+}
+.otherProjects .description p{
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 27px;
+}
+.commercialProjects.otherProjects .description p{
+	margin-top:18px;
+}
+.commercialProjects{
+	margin-top:0;
+	background:#2D3365;
+	padding-bottom: 61px;
+}
+.contacts,.footer{
+	margin-top:52px;
+}
+.footer{
+	background: #f2f2f2;
+	height:77px;
+	font-family:'nerislight';				
+}
+.footer .row{
+	padding-top:30px;		
+}
+.project {
+	height:456px;
+	padding:0;
+	margin-top:44px;
+	background: transparent url(/assets/branding/nophoto.png) no-repeat 0% 0%;
+	width: 460px;
+}
+#prokuratura.project {
+	background: url(/assets/branding/gp.jpg) no-repeat 0 0;
+}
+
+#referendumo-kaina.project {
+	background: url(/assets/branding/referendumas.jpg) no-repeat 0 0;
+	/*background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(/assets/branding/referendumas.jpg) no-repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))), url(/assets/branding/referendumas.jpg) no-repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/referendumas.jpg) no-repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/referendumas.jpg) no-repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/referendumas.jpg) no-repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/referendumas.jpg) no-repeat 0 0;*/
+}
+#fig.project {
+	background: url(/assets/branding/fig.jpg) no-repeat 0 0;
+	/*background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(/assets/branding/fig.jpg) no-repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))), url(/assets/branding/fig.jpg) no-repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/fig.jpg) no-repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/fig.jpg) no-repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/fig.jpg) no-repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/fig.jpg) no-repeat 0 0;*/
+}
+#pasiutpolke.project {
+	background: url(/assets/branding/pasiutpolke.jpg) no-repeat 0 0;
+	/*background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(/assets/branding/pasiutpolke.jpg) no-repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))), url(/assets/branding/pasiutpolke.jpg) no-repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/pasiutpolke.jpg) no-repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/pasiutpolke.jpg) no-repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/pasiutpolke.jpg) no-repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/pasiutpolke.jpg) no-repeat 0 0;*/
+}
+#advokatai.project {
+	background: url(/assets/branding/advokatai.png) no-repeat 0 0;
+	/*background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(/assets/branding/advokatai.png) no-repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))), url(/assets/branding/advokatai.png) no-repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/advokatai.png) no-repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/advokatai.png) no-repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/advokatai.png) no-repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/advokatai.png) no-repeat 0 0;*/
+}
+#aikis.project {
+	background: url(/assets/branding/aikis.jpg) no-repeat 0 0;
+	/*background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(/assets/branding/aikis.jpg) no-repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))), url(/assets/branding/aikis.jpg) no-repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/aikis.jpg) no-repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/aikis.jpg) no-repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/aikis.jpg) no-repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/aikis.jpg) no-repeat 0 0;*/
+}
+#vilniausmeras.project {
+	background: url(/assets/branding/savivaldybes.jpg) no-repeat 0 0;
+	/*background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(/assets/branding/savivaldybes.jpg) no-repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))), url(/assets/branding/savivaldybes.jpg) no-repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/savivaldybes.jpg) no-repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/savivaldybes.jpg) no-repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/savivaldybes.jpg) no-repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/savivaldybes.jpg) no-repeat 0 0;*/
+}
+#seniunijos.project {
+	background: url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	/*background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;*/
+}
+#rinkejai.project {
+	background: url(/assets/branding/rinkejai.png) no-repeat 0 0;
+	/*background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;*/
+}
+#vtek.project {
+	background: url(/assets/branding/vtek.png) no-repeat 0 0;
+	/*background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;*/
+}/*
+#vmi.project {
+	background: url(/assets/branding/vmi.png) no-repeat 0 0;
+	/*background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;*
+}*/
+#inspect.project {
+	background: url(/assets/branding/inspect.png) no-repeat 0 0;
+	/*background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;*/
+}
+#vmi.project {
+	background: url(/assets/branding/vmi.jpg) no-repeat 0 0;
+	/*background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;*/
+}
+#ltkt.project {
+	background: url(/assets/branding/ltkt.png) no-repeat 0 0;
+	/*background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;*/
+}
+#kariuomene.project {
+	background: url(/assets/branding/zukas_watching.jpg) no-repeat 0 0;
+	/*background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5))), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/assets/branding/seniunija.jpg) no-repeat 0 0;*/
+}
+.marketing .project:first-child{
+	margin-right: 60px;
+}
+.project h4, .contacts h4{
+	font-family:'nerislight';
+	font-size:24px;
+	letter-spacing: -0.13px;
+}
+.contacts h4{
+	margin-top: 77px;
+	margin-left: 1px;
+	line-height: 30px;
+}
+.project .description{
+	padding-left: 26px;
+	padding-top: 14px;
+	background:white;
+	display: inline-block;
+	width:365px;
+	margin-top:222px;
+	float:right;
+}
+.project .description p{
+	margin-top: 24px;
+	font-size: 17px;
+	font-family: 'neristhin';
+	padding-left: 2px;
+	line-height: 19.9999px;
+	letter-spacing: -0.47px;
+	color:#b8b8b8;
+	min-height:57px;
+}
+.project .description > a, .mailto{
+	margin-top: 23px;
+	color: #000;
+	display: block;
+	text-indent: 23px;
+	font-family:'nerislight';
+	background: transparent url(/assets/branding/right.png) no-repeat 0% 50%;
+	margin-left: 6px;
+	letter-spacing: -0.2px;
+}
+.project .description > a:hover, .mailto:hover{
+	text-decoration:none;
+	color:#e8432e;
+}
+span.right{
+	background: transparent url(/assets/branding/right.png) no-repeat 0% 50%;
+	display:inline-block;
+	width: 23px;
+	height: 12px;
+}
+.project .date{
+	text-align:center;
+	background:white;
+	display: inline-block;
+	width:94px;
+	margin-top: 273px;
+	border-right: 1px solid #E5E5E5;
+	letter-spacing: -0.2px;
+}
+.project .date .month{
+	font-family:'nerislight';
+	font-size: 16px;
+	color:#ccc;
+	text-transform: uppercase;
+}
+.project .date .year{
+	margin-top: -9px;
+	font-family: 'nerisblack';
+	font-size: 30px;
+	color: #ccc;
+	letter-spacing: 1.8px;
+}
+
+#mobileNavigation{
+	display:none;
+}
+
+@media (max-width: 768px) {
+	#logo{
+	margin-left: 1em;
+	}
+	.container-narrow {
+    margin: 0 auto;
+    width: auto;
+	}
+	.otherProjects .container-narrow{
+		width: auto;
+	}
+	.site-wrapper .container-narrow {
+	    width: auto;
+	}	
+	.site-wrapper {
+		height:auto;
+	}
+	#slogan {
+		width: auto;
+		font-size:1.5em;
+		margin-left:1em;
+		line-height: normal;
+	}
+	#showWorks, .project .date, #normalNavigation{
+		display:none;
+	}
+	.project .description, .project {
+	width:100%;	
+	}
+	#mobileNavigation{
+		display:block;
+	}
+	.project .description {
+		padding:5px;	
+	}
+	.marketing .project:first-child {
+		margin-right: 0;
+	}
+	.project{
+		margin-top: 20px;
+	}
+	h1,h2,h3,h4,h5{
+		text-indent:3px;
+	}
+}
